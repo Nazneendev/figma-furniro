@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+#headerPart{
+    padding: 40px 0;
+    background-color:#fff;
+}
+.headerFlex{
+    display: flex;
+
+}
+.logo{
+    width: 15%;
+}
+.menu{
+    width: 60%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.icon{
+    width: 25%;
+    margin-top: 10px;
+
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: black;
+    padding: 0 37px;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.icon{
+    gap: 15px;
+    display: flex;
+    justify-content: end;
+
+}
+#bannerPart{
+    background: url(../images/bannerBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 710px;
+    position: relative;
+}
+.bannerText{
+    width: 625px;
+    height: 433px;
+    position:absolute ;
+    background-color: #fff3E3;
+    right: 80px;
+    bottom: 110px;
+   
+}
+.text{
+    position: absolute;
+    left: 25px;
+    top: 59px;
+}
+.text h3{
+    width: 113px;
+    height: 14px;
+    color: #333333;
+    margin-left: 78px;
+}
+.text h1 {
+    color: #B88E2F;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 65px;
+    padding: 4px 79px;
+}
+.text p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    color: #0f0f0f;
+    padding: 0px 58px;
+    margin-left: 19px;
+}
+.button{
+    width:120px;
+    height: 40px;
+    background-color: #B88E2F;
+    margin-left: 76px;
+    margin-top: 30px;
+    position: relative;
+}
+.button a{
+   color: #fff;
+   position: absolute;
+   top: 12px;
+   left: 28px;
+   font-size: small;
+}
+
+ 
+
+#secondPart{
+    padding: 150px;
+    background: #fff;
+
+}
+.textHead{
+   
+    text-align: center;
+
+}
+.textHead h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #333333;
+}
+.textHead p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color:#353333 ;
+    margin-top: 15px;
+}
+.imgFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.imgItem{
+    width: 31%;
+    background: #fff;
+
+}
+.first img{
+    margin-top: 80px;
+}
+.living h3 {
+    text-align: center;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 23px;
+    margin-left: -26px;
+}
+#thirdPart{
+    padding: 150px 0;
+}
+.headline{
+    text-align: center;
+   
+   
+}
+.headline h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.productFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.productItem{
+    width: 23%;
+    position: relative;
+}
+.productImg{
+    position: relative;
+
+}
+.productImg img{
+    width: 100%;
+    margin-top: 40px;
+    display: block;
+}
+.badge{
+    height: 48px;
+    width: 48px;
+    background-color:#2EC1AC ;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    transition: .4s;
+}
+.badgeTwo{
+    height: 48px;
+    width: 48px;
+    background-color:#E97171 ;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    transition: .4s; 
+}
+.badgeTwo span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.badge span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+
+}
+.productText{
+    padding: 20px;
+    background: rgb(247, 244, 244);
+
+}
+.priceFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.productText span{
+    font-size: 20px;
+    color: #3A3A3A;
+
+}
+.productText del{
+    font-size: 16px;
+    color:rgb(170, 166, 166) ;
+    
+}
+.productText h3{
+    color: #3A3A3A;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight:600 ;
+}
+.productText h5{
+    color: #3A3A3A;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight:600 ;
+    margin-top: 10px;
+}
+.productOverly{
+    background: rgba(0, 0, 0, 0.4);
+    height: 93%;
+    width: 100%;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.productOverly .btn{
+    padding: 15px 25px;
+    background: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: goldenrod;
+    font-weight: 700;
+}
+.shareIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+.shareIcon a{
+    padding-right: 15px;
+    color: #fff;
+}
+.shareIcon i{
+    margin-right:10px ;
+}
+.productItem:hover .productOverly{
+    opacity: 1;
+    visibility: visible;
+}
+.productItem:hover .badge{
+    opacity: 0;
+    visibility: hidden;
+}
+.productItem:hover .badgeTwo{
+    opacity: 0;
+    visibility: hidden;
+}
+.batton{
+    width: 245px;
+    height: 40px;
+   background:#FCF8F3;
+    margin: 0 auto;
+    margin-top: 44px;
+    color: #e09d00;
+    text-align: center;
+    padding-top: 20px;
+   font-weight: 700;
+}
+#forthPart{
+    padding: 150px;
+    background:#FCF8F3;
+}
+.photoFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.photoItem{
+    width: 400px;
+}
+.lekha{
+    width: 625px;
+    height: 433px;
+   
+}
+.lekha h1{
+    color: #3A3A3A;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px; 
+    line-height: 120%;
+}
+.lekha p{
+    color: #616161;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    margin-top:15px;
+   
+}
+.box{
+    width: 176px;
+    height: 40px;
+   background: #B88E2F;
+   color: #fff;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  padding-top: 17px;
+
+}
+.photoFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.photoItem{
+    width: 20%;
+    position: relative;
+}
+.photo {
+    position: absolute;
+    left: 508px;
+    top: -560px;
+}
+
+.phototwo {
+    position: absolute;
+    left: 964px;
+    top: -560px;
+}
+#lastPart{
+    padding: 150px;
+    background: #fff;
+}
+
+.noteItem{
+  width:18%;
+}
+.noteFlex{
+    display: flex;
+    justify-content: space-between;
+     flex-wrap: wrap;
+}
+.note h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+.paragraph{
+    margin-top: 30px;
+}
+.paragraph p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #9F9F9F;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.note h3{
+    font-family: "Poppins", sans-serif;
+    color: #9F9F9F;
+    font-size:16px ;
+    font-weight: 400;
+}
+.note ul{
+    margin-top: 20px;
+}
+.note ul li{
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size:13px ;
+    font-weight: 500;
+}
+.note{
+    position: relative;
+}
+.note h5{
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size:13px ;
+    font-weight: 500;
+    color: #9F9F9F;
+   
+}
+.note h5::after {
+    width: 164px;
+    background: black;
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 47px;
+    left: 1px;
+}
+.note h5 span{
+    color: #0f0f0f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    
+
+}
+.line{
+    position: relative;
+}
+.line::after {
+    position: absolute;
+   
+    height: 1px;
+    width: 1335px;
+    background: #aaaaaa;
+    content: "";
+    left: -1328px;
+    top: 184px;
+    transform: translateY(-50%);
+}
+.copy{
+   position: relative;
+
+}
+.copy h2{
+    color:black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 70px;
+    left: -7px;
+}
