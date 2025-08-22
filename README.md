@@ -1,4 +1,4 @@
-# figma-furniro
+# figma-furniro HTML CSS Landing page
 
 live preview
-https://nazneenakterdeveloper.github.io/figma-furniro/
+https://nazneendev.github.io/figma-furniro/
